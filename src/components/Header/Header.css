@@ -1,0 +1,48 @@
+.header{
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(230, 111, 37, 0.667),rgba(8,0,58,0.7)), url('../../Assets/Cover.jpg');
+  background-size: cover;
+  background-position: center;
+  color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.header-text{
+  text-align: center;
+  max-width: 600px;
+  
+}
+.header-text h1{
+  font-size: 50px;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.header-text h4{
+  max-width: 700px;
+  margin: 10px auto 20px;
+  line-height: 1.4;
+  color: aliceblue;
+}
+
+@media (max-width: 850px){
+  .header-text h1{
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 650px){
+  .header-text h1{
+    font-size: 30px;
+    max-width: 400px;
+    margin: auto;
+  }
+  .header-text h4{
+    font-size: 14px;
+    margin: 15px auto 30px;
+    
+  }
+}
